@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540638942B14B052009B1DEC /* OtplessTestSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540638932B14B052009B1DEC /* OtplessTestSwiftUIApp.swift */; };
+		540638962B14B052009B1DEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540638952B14B052009B1DEC /* ContentView.swift */; };
+		540638982B14B053009B1DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540638972B14B053009B1DEC /* Assets.xcassets */; };
+		5406389B2B14B053009B1DEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5406389A2B14B053009B1DEC /* Preview Assets.xcassets */; };
+		540638A32B14BE6B009B1DEC /* OtplessVCWrapperSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540638A22B14BE6B009B1DEC /* OtplessVCWrapperSwiftUI.swift */; };
+		540638A52B14C012009B1DEC /* MyOtplessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540638A42B14C012009B1DEC /* MyOtplessVC.swift */; };
+		B2B7B4A7B8CC29B10C39D409 /* Pods_OtplessTestSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA17D23E5B94EBB256FC511 /* Pods_OtplessTestSwiftUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CD34EF3B0D8CE5FB4743A1 /* Pods-OtplessTestSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtplessTestSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-OtplessTestSwiftUI/Pods-OtplessTestSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		540638902B14B052009B1DEC /* OtplessTestSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtplessTestSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540638932B14B052009B1DEC /* OtplessTestSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtplessTestSwiftUIApp.swift; sourceTree = "<group>"; };
+		540638952B14B052009B1DEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		540638972B14B053009B1DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5406389A2B14B053009B1DEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		540638A12B14B148009B1DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		540638A22B14BE6B009B1DEC /* OtplessVCWrapperSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtplessVCWrapperSwiftUI.swift; sourceTree = "<group>"; };
+		540638A42B14C012009B1DEC /* MyOtplessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOtplessVC.swift; sourceTree = "<group>"; };
+		AA5A28FD70F9B689131B9EBF /* Pods-OtplessTestSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtplessTestSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-OtplessTestSwiftUI/Pods-OtplessTestSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		AEA17D23E5B94EBB256FC511 /* Pods_OtplessTestSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtplessTestSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5406388D2B14B052009B1DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B7B4A7B8CC29B10C39D409 /* Pods_OtplessTestSwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540638872B14B052009B1DEC = {
+			isa = PBXGroup;
+			children = (
+				540638922B14B052009B1DEC /* OtplessTestSwiftUI */,
+				540638912B14B052009B1DEC /* Products */,
+				B7AFBA7FB3E8F28964755945 /* Pods */,
+				C0461C19330162B8E3E2CA7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		540638912B14B052009B1DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540638902B14B052009B1DEC /* OtplessTestSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540638922B14B052009B1DEC /* OtplessTestSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				540638932B14B052009B1DEC /* OtplessTestSwiftUIApp.swift */,
+				540638952B14B052009B1DEC /* ContentView.swift */,
+				540638A22B14BE6B009B1DEC /* OtplessVCWrapperSwiftUI.swift */,
+				540638A42B14C012009B1DEC /* MyOtplessVC.swift */,
+				540638972B14B053009B1DEC /* Assets.xcassets */,
+				540638A12B14B148009B1DEC /* Info.plist */,
+				540638992B14B053009B1DEC /* Preview Content */,
+			);
+			path = OtplessTestSwiftUI;
+			sourceTree = "<group>";
+		};
+		540638992B14B053009B1DEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5406389A2B14B053009B1DEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7AFBA7FB3E8F28964755945 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05CD34EF3B0D8CE5FB4743A1 /* Pods-OtplessTestSwiftUI.debug.xcconfig */,
+				AA5A28FD70F9B689131B9EBF /* Pods-OtplessTestSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0461C19330162B8E3E2CA7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA17D23E5B94EBB256FC511 /* Pods_OtplessTestSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5406388F2B14B052009B1DEC /* OtplessTestSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5406389E2B14B053009B1DEC /* Build configuration list for PBXNativeTarget "OtplessTestSwiftUI" */;
+			buildPhases = (
+				F16E0C5B4087B3FD79E9C618 /* [CP] Check Pods Manifest.lock */,
+				5406388C2B14B052009B1DEC /* Sources */,
+				5406388D2B14B052009B1DEC /* Frameworks */,
+				5406388E2B14B052009B1DEC /* Resources */,
+				4F9D51487FFA5F4BDD714797 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtplessTestSwiftUI;
+			productName = OtplessTestSwiftUI;
+			productReference = 540638902B14B052009B1DEC /* OtplessTestSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540638882B14B052009B1DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5406388F2B14B052009B1DEC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5406388B2B14B052009B1DEC /* Build configuration list for PBXProject "OtplessTestSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540638872B14B052009B1DEC;
+			productRefGroup = 540638912B14B052009B1DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5406388F2B14B052009B1DEC /* OtplessTestSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5406388E2B14B052009B1DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5406389B2B14B053009B1DEC /* Preview Assets.xcassets in Resources */,
+				540638982B14B053009B1DEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9D51487FFA5F4BDD714797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtplessTestSwiftUI/Pods-OtplessTestSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OtplessTestSwiftUI/Pods-OtplessTestSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OtplessTestSwiftUI/Pods-OtplessTestSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F16E0C5B4087B3FD79E9C618 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OtplessTestSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5406388C2B14B052009B1DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540638962B14B052009B1DEC /* ContentView.swift in Sources */,
+				540638A52B14C012009B1DEC /* MyOtplessVC.swift in Sources */,
+				540638A32B14BE6B009B1DEC /* OtplessVCWrapperSwiftUI.swift in Sources */,
+				540638942B14B052009B1DEC /* OtplessTestSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5406389C2B14B053009B1DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5406389D2B14B053009B1DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5406389F2B14B053009B1DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CD34EF3B0D8CE5FB4743A1 /* Pods-OtplessTestSwiftUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtplessTestSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = BV8RD52R8F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OtplessTestSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anshulapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540638A02B14B053009B1DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA5A28FD70F9B689131B9EBF /* Pods-OtplessTestSwiftUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OtplessTestSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = BV8RD52R8F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OtplessTestSwiftUI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anshulapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5406388B2B14B052009B1DEC /* Build configuration list for PBXProject "OtplessTestSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406389C2B14B053009B1DEC /* Debug */,
+				5406389D2B14B053009B1DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5406389E2B14B053009B1DEC /* Build configuration list for PBXNativeTarget "OtplessTestSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5406389F2B14B053009B1DEC /* Debug */,
+				540638A02B14B053009B1DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540638882B14B052009B1DEC /* Project object */;
+}
